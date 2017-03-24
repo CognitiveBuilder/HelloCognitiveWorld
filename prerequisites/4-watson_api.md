@@ -38,6 +38,13 @@ This module, called `watson-developer-cloud`, has been developed by IBM for pyth
 
   It should display some installation messages (see screencast below).
 
+4. Finally, we will use the [module `python-dotenv`](https://github.com/theskumar/python-dotenv) to manage credentials to the Watson API. Type:
+
+  ```bash
+  pip install --upgrade python-dotenv
+  ```
+
+
 ## Check your work 💪
 
 You can test your installation by running `ipython`. In your terminal type:
