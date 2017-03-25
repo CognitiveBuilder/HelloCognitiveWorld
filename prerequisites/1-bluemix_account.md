@@ -40,15 +40,17 @@ _Note: Opening an account creates a free 1 month trial period. In that period, m
 
 ## \#2 Setting up your account
 
+_Note: that section may happen differently if you've already created an IBM account through the Data Science Experience registration process. You don't need to use the specific organization and space names._
+
 1. Login into the [IBM Bluemix Console](https://console.ng.bluemix.net/login/).
 
   ![IBM Bluemix Console](img/ibmaccountregister-5.png)
 
-2. On the first login, IBM Bluemix will ask you to setup a few things. After you have accepted the conditions (**step 1**), you need to create an organization (**step 2**). You can use "CBC-yourname" as your organization name.
+2. On the first login, IBM Bluemix will ask you to setup a few things. After you have accepted the conditions (**step 1**), you need to create an organization (**step 2**). You can use "CBC-yourname" as your organization name, or something else you'd like.
 
   ![IBM Bluemix Console](img/ibmaccountregister-6.png)
 
-3. Next, you will need to create a space (**step 3**). It will be a simplified way to handle the components you create, and manage the permissions. Use "CBC Dev Space" in there.
+3. Next, you will need to create a space (**step 3**). It will be a simplified way to handle the components you create, and manage the permissions. You can use "CBC Dev Space" in there, or anything else you'd like.
 
   ![IBM Bluemix Console](img/ibmaccountregister-7.png)
 
