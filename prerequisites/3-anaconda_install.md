@@ -35,7 +35,7 @@ Depending on your configuration, please choose among the instructions below.
 In a terminal, run the following lines:
 
 ```bash
-wget -O $HOME/anaconda.sh https://repo.continuum.io/archive/Anaconda3-4.3.0-MacOSX-x86_64.sh
+curl -o $HOME/anaconda.sh https://repo.continuum.io/archive/Anaconda3-4.3.0-MacOSX-x86_64.sh
 bash $HOME/anaconda.sh -b -p $HOME/anaconda
 echo "export PATH=$HOME/anaconda/bin:$PATH" >> $HOME/.bash_profile
 rm $HOME/anaconda.sh
