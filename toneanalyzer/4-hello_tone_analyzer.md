@@ -22,7 +22,13 @@ In a terminal.
 
 2. Get into the code directory of this repository.
 
-3. Run the script [`code/toneanalyzer.py`](../code/toneanalyzer.py).
+3. Run the script [`code/toneanalyzer.py`](../code/toneanalyzer.py) using:
+
+  ```bash
+  python toneanalyzer.py
+  ```
+
+  inside the code directory.
 
 4. When prompted, submit the sentence `What exactly is this output ?!?`.
 
