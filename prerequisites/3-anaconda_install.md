@@ -96,7 +96,7 @@ Please refer to the [Anaconda Installation (official) guidelines](https://docs.c
 3. Try the following command :
 
   ```bash
-  python --version_info
+  python --version
   ```
 
   It should return:
