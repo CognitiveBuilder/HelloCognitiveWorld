@@ -34,7 +34,7 @@ Description of this lesson:
 
 ## \#2 Write a credentials file into your code directory
 
-1. Open atom to edit the file `code/.env-example`. You should see the following content in there:
+1. Open atom to edit the file [`code/.env-example`](.env-example). You should see the following content in there:
 
   ```
   TONE_USERNAME="..."
@@ -43,7 +43,7 @@ Description of this lesson:
 
   Modify this file by replacing the `"..."` on the lines above with your username and password from the credentials of the Tone Analyser service you copied above.
 
-  Now save that file to `.env` instead of `.env-example`. The file `.env` had been added to the `.gitignore` of this repository so that **it should NEVER BE PUSHED** into your fork. You wouldn't want the entire world to share your credentials.
+  Now save that file to `.env` insode `code/` instead of `.env-example`. The file `.env` had been added to the `.gitignore` of this repository so that **it should NEVER BE PUSHED** into your fork. You wouldn't want the entire world to share your credentials.
 
 
 ## Check your work 💪
