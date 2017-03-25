@@ -29,7 +29,7 @@ By the end of this lesson, you should be able to:
 
 2. It will download a packaged file corresponding to your system. In Ubuntu/Debian it would be `atom-amd64.deb`.
 
-3. In a terminal, run `sudo dpkg -i atom-amd64.dev` to run the installer.
+3. In a terminal, get into the directory you downloaded this file into, and run `sudo dpkg -i atom-amd64.deb` to run the installer.
 
 
 ## Install Atom on Windows
