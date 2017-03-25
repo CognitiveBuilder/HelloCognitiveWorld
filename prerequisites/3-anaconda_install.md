@@ -52,7 +52,7 @@ _If you want to run a different installation process, please refer to the [Anaco
 In a terminal, run the following lines:
 
 ```bash
-wget -O $HOME/anaconda.sh https://repo.continuum.io/archive/Anaconda3-4.3.0-Linux-x86_64.sh
+curl -o $HOME/anaconda.sh https://repo.continuum.io/archive/Anaconda3-4.3.0-Linux-x86_64.sh
 bash $HOME/anaconda.sh -b -p $HOME/anaconda
 echo "export PATH=$HOME/anaconda/bin:$PATH" >> $HOME/.bashrc
 rm $HOME/anaconda.sh
