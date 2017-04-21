@@ -1,6 +1,6 @@
 # Create your Bluemix account
 
-**Requirements**: None specific. You just need a web browser, and be able to connect to your email account and to the IBM Bluemix console.
+**Requirements**: None specific. You just need a web browser, and be able to connect to your email account and to IBM Bluemix console.
 
 ## Objectives & Outlines
 
@@ -20,7 +20,7 @@ Designing a product based on Bluemix/Watson will require to **create instances**
 
 The components of that platform are made available through a **web console**. You will use that web console to **manage the components** you want to embed into your applications. To access tha web console, you need to create an IBM Bluemix account.
 
-_Note: Opening an account creates a free 1 month trial period. In that period, most of the Watson component will be provided for free._
+_Note: Opening an account creates a free 1 month trial period. In that period most of the Watson component will be provided for free._
 
 
 ## \#1 Register for an IBM Bluemix account
