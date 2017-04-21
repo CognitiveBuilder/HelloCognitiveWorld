@@ -12,6 +12,7 @@ Description of this lesson:
 - **Type**: step-by-step tutorial
 - **Estimated time for completion**: 30 mins.
 
+
 ## Rationale
 
 Python is a programming language. The core value of Python resides in the numerous modules and libraries that go with it. There are modules for data science, for plotting... and of course a module for using IBM Watson.
@@ -70,10 +71,28 @@ _If you want to run a different installation process, please refer to the [Anaco
 
 Please refer to the [Anaconda Installation (official) guidelines](https://docs.continuum.io/anaconda/install#anaconda-for-windows-install)._
 
+#### Notes on using this course in the Windows environment
+
+This course is compatible will all three environments Mac/Linux/Windows. The screen captures and visual aids are based on Mac terminals. Indeed, most of the things you'll need to do are based on editing code using Atom and running commands from the command line.
+
+You can have that same experience in Windows using the `Anaconda Prompt`. In the menu, when you'll have installed Anaconda, you'll find a program called `Anaconda Prompt` (see below).
+
+![anaconda prompt on windows menu](img/anaconda_prompt_menu.png).
+
+This will open a terminal window using Anaconda. And you can run all the python commands from there.
+
+![anaconda prompt on windows menu](img/anaconda_prompt_window.png).
+
+When you'll have created the environment (next section below), you'll have a new line in the menu called `Anaconda Prompt (cbc)` (see below).
+
+![anaconda prompt on windows menu](img/anaconda_prompt_menu_cbc.png).
+
+This will open a terminal window with the `cbc` environment pre-loaded so you don't have to run the `activate cbc` command.
+
 
 ## \#2 Create an environment for cbc
 
-**Do the following in a terminal**.
+**Do the following in a <dfn title="in Windows, use Anaconda Prompt">terminal</dfn>**.
 
 1. Create an environment called `cbc` by typing:
 
@@ -82,16 +101,14 @@ Please refer to the [Anaconda Installation (official) guidelines](https://docs.c
   ```
 
   _This will ask Anaconda to create an environment named `cbc`, and install Python 3 in that environment, along with all the Anaconda packages. The `-y` option forces the installation of the dependencies._
-  _Note: Python 3 is not necessary for the Watson API. If you prefer to use Python 2 change this command to the following:_
-  ```bash
-  conda create --name cbc -y python=2.7 anaconda
-  ```
 
 2. Enter your `cbc` environment:
 
   ```bash
   source activate cbc
   ```
+
+  *Note: if you work in Windows just type `activate cbc` (discard `source`) in the Anaconda Prompt or launch `Anaconda Prompt (cbc)` from the menu.*.
 
 3. Try the following command :
 
@@ -105,11 +122,14 @@ Please refer to the [Anaconda Installation (official) guidelines](https://docs.c
   Python 3.6.0 :: Continuum Analytics, Inc.
   ```
 
+
 4. To exit the conda environment, type:
 
   ```bash
   source deactivate
   ```
+
+  *Note: in windows just type `deactivate` (discard `source`) in the Anaconda Prompt*.
 
 5. The unix command `which` indicates where to find a given program that is executed. For instance,
 
