@@ -1,6 +1,6 @@
 # Install Watson/Python API
 
-**Requirements**: You need to have completed the [Anaconda installation tutorial](anaconda_install.md).
+**Requirements**: You need to have completed the [Anaconda installation tutorial](3-anaconda_install.md).
 
 ## Objectives & Outlines
 
@@ -61,7 +61,7 @@ You can test your installation by running `ipython`. In your terminal type:
   ipython
   ```
 
-  and then within `ipython` type:
+  and then, within `ipython`, type:
   ```python
   import watson_developer_cloud
   ```

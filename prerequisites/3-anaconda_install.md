@@ -1,6 +1,6 @@
 # Install Anaconda
 
-**Requirements**: You need to have completed the [Atom installation tutorial](atom_install.md).
+**Requirements**: You need to have completed the [Atom installation tutorial](2-atom_install.md).
 
 ## Objectives & Outlines
 

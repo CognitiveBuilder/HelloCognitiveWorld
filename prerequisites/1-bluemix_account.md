@@ -1,6 +1,6 @@
 # Create your Bluemix account
 
-**Requirements**: None specific. You just need a web browser, and be able to connect to your email account and to IBM Bluemix console.
+**Requirements**: None specific. You just need a web browser, and be able to connect to your email account and to the IBM Bluemix console.
 
 ## Objectives & Outlines
 
