@@ -43,7 +43,9 @@ Description of this lesson:
 
   Modify this file by replacing the `"..."` on the lines above with your username and password from the credentials of the Tone Analyser service you copied above.
 
-  Now save that file to `.env` insode `code/` instead of `.env-example`. The file `.env` had been added to the `.gitignore` of this repository so that **it should NEVER BE PUSHED** into your fork. You wouldn't want the entire world to share your credentials.
+  Now, save that file to `.env` inside `code/` (instead of `.env-example`).
+
+  *Note: if you re-use this code into a github project/repository, be sure to add python rules to `.gitignore`, or to add a single line `.env` to your `.gitignore` file. That way, your credentials will NEVER BE PUSHED into your repository. You wouldn't want the entire world to share your credentials.*
 
 
 ## Check your work 💪
