@@ -46,5 +46,5 @@ When running the script above with the sentence `I totally rocked that thing!`
 Identify the line containing the score detected for Joy:
 
   ```
-  "score": 0.452758,
+  "score": 0.595477,
   ```
