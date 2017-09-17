@@ -9,6 +9,7 @@ This is the very first lesson of the [Cognitive Builder Course](http://cognitive
 ## 1. Installation & Setup (prerequisites)
 
 This sequence consists in the installation of the tools necessary for using the python Watson API. It is a set of step-by-step tutorials to guide through:
+- the [creation of a BlueMix account](prerequisites/0-bluemix_account.md) (text editor),
 - the [installation of Atom](prerequisites/1-atom_install.md) (text editor),
 - the [installation of Python/Anaconda](prerequisites/2-anaconda_install.md),
 - the [installation of the Watson <abbr title="Application Programming Interface">API</abbr>](prerequisites/3-watson_api.md),
