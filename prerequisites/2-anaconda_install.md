@@ -97,7 +97,7 @@ This will open a terminal window with the `cbc` environment pre-loaded so you do
 1. Create an environment called `cbc` by typing:
 
   ```bash
-  conda create --name cbc -y python=3 anaconda
+  conda create --name cbc -y python=3 python ipython
   ```
 
   _This will ask Anaconda to create an environment named `cbc`, and install Python 3 in that environment, along with all the Anaconda packages. The `-y` option forces the installation of the dependencies._

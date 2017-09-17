@@ -22,6 +22,10 @@ The components of that platform are made available through a **web console**. Yo
 
 _Note: Opening an account creates a free 1 month trial period. In that period most of the Watson component will be provided for free._
 
+## Note: read this first if you are participating to a Cognitive Builder Faire
+
+**<span style="color:red">You should have received in your email a promo code giving you access to a 90 days trial for the BlueMix platform. Use this email for registering first. If you follow the guidelines below, you will have access only to a 30 days trial.</span>**
+
 
 ## \#1 Register for an IBM Bluemix account
 
